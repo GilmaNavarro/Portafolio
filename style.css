@@ -179,7 +179,29 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .datospersonales .contenedor-intereses .interes{
+.sobremi .fila .datospersonales .contenedor-intereses {
     display: flex;
     flex-wrap: wrap;
 }
+.sobremi .fila .datospersonales .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #ea223dc9;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .datospersonales .contenedor-intereses  .interes:hover{
+    background-color: #6a0505;
+}
+
+.sobremi .fila .datospersonales .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
