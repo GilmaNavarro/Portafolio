@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Emcabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Gilma</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#Soft-Skills" onclick="seleccionar()">Soft Skills</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Inicio -->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class=" contenedor.img">
+                <img src="img.jpg" alt="">
+
+            </div>
+            <h1> Gilma Navarro Arevalo</h1>
+            <h3>Estudiante de Ingeniería de Sofware con Inteligencia Artificial - SENATI</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/share/14NXJJqaqxk/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/51976676717"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="www.linkedin.com/in/gilma-navarro-arevalo-078643386"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/GIL200802"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mi-->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <H2>Sobre Mí</H2>
+            <p><span>Hola, Soy Gilma Navarro.</span> Estudiante de Ingeniería de Software con pasíon por la tecnología y resolucion de problemas.
+              Me motiva aprender constantemente, desarrollar soluciones que aporten valor y crecer profesionalmente en un entorno dinámico e innovado. 
+              Creo firmemente que el Software no solo resuelve tareas, sino que transforma vidas. Por eso, cada proyecto lo tomo como una oportunidad para mejorar, aportar y acercarme al profesional que quiero ser.
+            </p>
+    
+            <div class="fila"> 
+                   <!-- datos personales -->
+            <div class="datospersonales">
+                <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong> Cumpleaños</strong>
+                            20/08/2002
+                        </li>
+
+                        <li>
+                            <strong>Telélefo</strong>
+                            +51 976 676 717
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            gilmanavarroarevalo@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website GitHub</strong>
+                            gilthub.com/gil200802
+                        </li>
+                        <li>
+                            <strong>Dirección</srong>
+                            Calle los Huacamayos Mz."L" Lt.12 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span> Estudiante</span>
+                        </li>
+                    </ul>
+                </div>
+    
+            <!-- Intereses -->
+                <div class="datospersonales">
+                    <h2>Intereses</h2>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>INGLES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>PORTUGUES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+            <button id="boton-descarga">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- seccion Soft Skills-->
+    <section class="Soft-Skills" id="Soft-Skills">
+        <div class="contenido-seccion ">
+            <h2>Soft Skills</h2>
+            <div class="fila">
+                <!-- technical skill-->
+                <div class="col">
+                    <h3>Technical Soft Skills</h3>
+                    <div class="Soft-Skills">
+                        <span>Java</span>
+                        <div class="Soft-Skills">
+                            <div class="barra-skill">
+                                <span> 48%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Soft-Skills">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="Soft-Skills">
+                        <span> HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Soft-Skills">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Soft-Skills">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Primaria y Secundaria</h4>
+                        <span class="casa">Rosa Panduro 601325- CNI</span>
+                        <span class="fecha">2009- 2014 / 2015 - 2019</span>
+                        <p>Quiero expresar mi más sincero agradecimiento por acompañamiento y la enseñanza recibida durante mis años de educación primaria y secundaria. 
+                            Cada etapa fue clave para mi crecimiento, los cuales fueron fundamentales para mi formación personal y académica.</p>
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeneria de Software con IA</h4>
+                        <span class="casa">SENATI</span>
+                        <span class="fecha">2024 - 2025</span>
+                        <p>Aprendí a utilizar herramientas y tecnologías para crear soluciones informáticas que satisfagan las necesidades de los usuarios finales.Nos enseñaron a trabajar en diferentes plataformas y sistemas operativos, desde aplicaciones móviles hasta software de escritorio y web, y a garantizar la escalabilidad, la seguridad y la eficiencia de los sistemas implementados.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+            <div class="Redes">
+                <a href="https://www.facebook.com/share/14NXJJqaqxk/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/51976676717"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="www.linkedin.com/in/gilma-navarro-arevalo-078643386"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/GIL200802"><i class="fa-brands fa-github"></i></a>
+            </div>
+        
+        <p>&copy; 2025 Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+
+
+
+    
+</body>
+</html>
