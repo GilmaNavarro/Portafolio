@@ -93,10 +93,10 @@ html{
 
 
 .inicio .contenido-banner .redes a{
-    color: aliceblue;
+    color: rgb(152, 13, 13);
     display: inline-block;
     text-decoration: none;
-    border:1px solid #7a1b1b;
+    border:1px solid #720a0a;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -413,6 +413,42 @@ footer .redes a{
     font-size: 20px;
     transition: .3s;
 }
+/* Facebook - Azul */
+.redes a:nth-child(1) {
+  background-color: #dfe2e9;
+}
+.redes a:nth-child(1):hover {
+  background-color: #4c70ba;  /* Color más claro al pasar mouse */
+  transform: scale(1.5);      /* Efecto de zoom leve */
+}
+
+/* WhatsApp - Verde */
+.redes a:nth-child(2) {
+  background-color: #e7eee9;
+}
+.redes a:nth-child(2):hover {
+  background-color: #43e67d;
+  transform: scale(1.5);
+}
+
+/* LinkedIn - Azul oscuro */
+.redes a:nth-child(3) {
+  background-color: #e3e9ed;
+}
+.redes a:nth-child(3):hover {
+  background-color: #189ad3;
+  transform: scale(1.5);
+}
+
+/* GitHub - Negro grisáceo */
+.redes a:nth-child(4) {
+  background-color: #f4f3f3;
+}
+.redes a:nth-child(4):hover {
+  background-color: #4f4f4f;
+  transform: scale(1.5);
+}
+
 
 
 footer .arriba{
@@ -429,6 +465,9 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-footer .redes a:hover{
-    background-color: #3c40c6;
+
+.arriba:hover {
+  background-color: #a80c0c; /* Azul encendido al pasar mouse */
+  color: #fff;               /* El ícono sigue blanco (opcional) */
+  cursor: pointer;
 }
