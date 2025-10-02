@@ -448,6 +448,10 @@ footer .redes a{
   background-color: #4f4f4f;
   transform: scale(1.5);
 }
+/* Cambiar a blanco al pasar el mouse */
+.redes a:hover i {
+  color: white;
+}
 
 
 
