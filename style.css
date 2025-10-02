@@ -52,16 +52,6 @@ html{
 .contenedor-header header nav ul li a:hover{
     color:#273c75;
 }
-
-.nav-responsive{
-    background-color:black;
-    color: aliceblue;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-}
-
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img.jpg);
@@ -123,6 +113,7 @@ html{
     background-color: rgb(219, 203, 203);
     color: black;
     padding: 50px 20px;
+    text-align: justify;
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -143,6 +134,7 @@ html{
 .sobremi .contenido-seccion p span{
     color:rgba(180, 23, 23, 0.877) ;
     font-weight: bold;
+    
 }
 
 .sobremi .fila {
@@ -344,6 +336,7 @@ html{
     background-color: #dac2c2;
     color: #0f0e0e;
     padding: 50px 20px;
+    text-align: justify;
  }
   
  .curriculum .contenido-seccion{
@@ -392,7 +385,50 @@ html{
  }
  .curriculum .fila .item .fecha{
     display:  block;
-    color: #8e4646;
+    color: #de2727;
     margin-bottom: 10px;
  }
 
+footer{
+    background-color: #f1d0d0;
+    color: #0c0202;
+    padding: 50px 0 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #500a0a;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid beige;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+footer .arriba{
+    display:inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: #eae2e2;
+    color: #401414;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    line-height: 50px;
+    font-size: 18px;
+}
+footer .redes a:hover{
+    background-color: #3c40c6;
+}
