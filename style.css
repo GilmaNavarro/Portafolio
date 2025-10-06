@@ -12,7 +12,7 @@ html{
 }
 
 .contenedor-header{
-    background: rgb(215, 204, 204);
+    background: rgb(46, 31, 31);
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,7 +32,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 40px;
-    color: rgb(207, 29, 35);
+    color: rgb(149, 31, 35);
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -42,7 +42,7 @@ html{
 
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #d13232;
+    color: #7e1d1d;
     margin: 0 15px;
     padding: 3px;
     transition: .3s;
@@ -50,14 +50,14 @@ html{
 }
 
 .contenedor-header header nav ul li a:hover{
-    color:#273c75;
+    color:#3a64da;
 }
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img.jpg);
     background-size: cover;
     height: 100hv;
-    color: #f7f3f3;
+    color: #fffefe;
     display: flex;
     align-items: center;
 }
