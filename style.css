@@ -52,16 +52,6 @@ html{
 .contenedor-header header nav ul li a:hover{
     color:#273c75;
 }
-
-.nav-responsive{
-    background-color:black;
-    color: aliceblue;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-}
-
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(img.jpg);
@@ -103,10 +93,10 @@ html{
 
 
 .inicio .contenido-banner .redes a{
-    color: aliceblue;
+    color: rgb(152, 13, 13);
     display: inline-block;
     text-decoration: none;
-    border:1px solid #7a1b1b;
+    border:1px solid #720a0a;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -123,6 +113,7 @@ html{
     background-color: rgb(219, 203, 203);
     color: black;
     padding: 50px 20px;
+    text-align: justify;
 }
 .sobremi .contenido-seccion{
     max-width: 1100px;
@@ -132,7 +123,7 @@ html{
 .sobremi h2{
     font-size: 48px;
     font-family:'Righteous' ;
-    line-height: center;
+    text-align: center;
     padding: 20px 0;
 }
 .sobremi .contenido-banner p{
@@ -143,6 +134,7 @@ html{
 .sobremi .contenido-seccion p span{
     color:rgba(180, 23, 23, 0.877) ;
     font-weight: bold;
+    
 }
 
 .sobremi .fila {
@@ -179,7 +171,307 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .datospersonales .contenedor-intereses .interes{
+.sobremi .fila .datospersonales .contenedor-intereses {
     display: flex;
     flex-wrap: wrap;
+}
+.sobremi .fila .datospersonales .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #ea223dc9;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}.sobremi .fila .datospersonales .contenedor-intereses  .interes:hover{
+    background-color: #6a0505;
+}
+
+.sobremi .fila .datospersonales .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* seccion Soft-Skills */
+.Soft-Skills{
+    background-color: rgb(229, 142, 149);
+    color: #171616;
+    padding: 50px 20px;
+}
+.Soft-Skills .contenido-seccion{
+    max-width:  1100px;
+    margin: auto;   
+}
+
+.Soft-Skills h2{
+    font-size: 48px;
+    font-family: 'Righteus';
+    text-align:center;
+    padding: 20px 0;
+}
+.Soft-Skills .fila {
+    display: flex;
+}
+.Soft-Skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+ .Soft-Skills .fila .col h3{
+    font-size: 28px;
+    font-family:  'Righteous';
+    margin-bottom: 25px;
+ }
+.Soft-Skills .Soft-Skills > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.Soft-Skills .Soft-Skills .barra-skill{
+    height:  8px;
+    width:  80%;
+    background-color: #7e2020;
+    position: relative;
+    margin-bottom: 30px;
+}
+.Soft-Skills .Soft-Skills .progreso{
+    background-color: #f4f4f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.Soft-Skills .Soft-Skills .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #f4f4f8;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;  
+}
+/* Estas clases son complementarias  mediante javascript */
+.Soft-Skills .Soft-Skills .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 48%;}
+}
+.Soft-Skills .Soft-Skills .Python{
+    width: 0%;
+    animation: 2s Python forwards;
+}
+@keyframes Python{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.Soft-Skills .Soft-Skills .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.Soft-Skills .Soft-Skills .mysql{
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+ @keyframes mysql{
+    0%{width: 0%;}
+    100%{width: 50%;}
+ }
+.Soft-Skills .Soft-Skills .PHP{
+    width: 0%;
+    animation: 2s PHP forwards;
+}
+@keyframes PHP{
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+.Soft-Skills .Soft-Skills .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.Soft-Skills .Soft-Skills .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.Soft-Skills .Soft-Skills .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.Soft-Skills .Soft-Skills .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+ /* curriculum */
+ .curriculum {
+    background-color: #dac2c2;
+    color: #0f0e0e;
+    padding: 50px 20px;
+    text-align: justify;
+ }
+  
+ .curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+ }
+
+ .curriculum h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+ }
+ .curriculum .fila{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .curriculum .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+ }
+ .curriculum .fila .izquierda{
+    border-right: 4px solid #6a0505;
+ }
+ .curriculum .fila .derecha{
+    border-left: 2px solid brown;
+ }
+ .curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #f1d6d6;
+    position: relative;
+ }
+ .curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+ .curriculum .fila .item .casa{
+    color: #aa1414;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+ }
+ .curriculum .fila .item .fecha{
+    display:  block;
+    color: #de2727;
+    margin-bottom: 10px;
+ }
+
+footer{
+    background-color: #f1d0d0;
+    color: #0c0202;
+    padding: 50px 0 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #500a0a;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid beige;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+/* Facebook - Azul */
+.redes a:nth-child(1) {
+  background-color: #dfe2e9;
+}
+.redes a:nth-child(1):hover {
+  background-color: #4c70ba;  /* Color más claro al pasar mouse */
+  transform: scale(1.5);      /* Efecto de zoom leve */
+}
+
+/* WhatsApp - Verde */
+.redes a:nth-child(2) {
+  background-color: #e7eee9;
+}
+.redes a:nth-child(2):hover {
+  background-color: #43e67d;
+  transform: scale(1.5);
+}
+
+/* LinkedIn - Azul oscuro */
+.redes a:nth-child(3) {
+  background-color: #e3e9ed;
+}
+.redes a:nth-child(3):hover {
+  background-color: #189ad3;
+  transform: scale(1.5);
+}
+
+/* GitHub - Negro grisáceo */
+.redes a:nth-child(4) {
+  background-color: #f4f3f3;
+}
+.redes a:nth-child(4):hover {
+  background-color: #4f4f4f;
+  transform: scale(1.5);
+}
+/* Cambiar a blanco al pasar el mouse */
+.redes a:hover i {
+  color: white;
+}
+
+
+
+footer .arriba{
+    display:inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: #eae2e2;
+    color: #401414;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.arriba:hover {
+  background-color: #a80c0c; /* Azul encendido al pasar mouse */
+  color: #fff;               /* El ícono sigue blanco (opcional) */
+  cursor: pointer;
 }
