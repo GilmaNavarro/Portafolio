@@ -132,7 +132,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color:rgba(180, 23, 23, 0.877) ;
+    color:rgba(112, 32, 32, 0.877) ;
     font-weight: bold;
     
 }
@@ -161,12 +161,12 @@ html{
 
 .sobremi .fila .datospersonales ul li strong{
     display: inline-block;
-    color: #982929;
+    color: #111010;
     width: 130px;
 }
 
 .sobremi .fila .datospersonales ul li span{
-    background-color: #c8ea22c9;
+    background-color: #6668e3c9;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -178,7 +178,7 @@ html{
 .sobremi .fila .datospersonales .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #ea223dc9;
+    background-color: #693d43c9;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -187,7 +187,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .datospersonales .contenedor-intereses  .interes:hover{
-    background-color: #6a0505;
+    background-color: #eee9e9;
 }
 
 .sobremi .fila .datospersonales .contenedor-intereses .interes i{
